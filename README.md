@@ -3,8 +3,8 @@
  - typescript
  - styled-component
  - next-pwa
- -jest
- -react-testing-library
+ - jest
+ - react-testing-library
 
 ## Getting Started
 clone this project
@@ -17,7 +17,7 @@ cd boilerplate && npm install
 # or
 cd boilerplate  yarn
 ```
-## 👟 Running 
+## 👟 Running
 ```bash
 npm run dev
 # or
