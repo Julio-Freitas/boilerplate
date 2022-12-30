@@ -1,9 +1,9 @@
-import { Main } from 'src/component/Main';
+import { Main } from 'next/document';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Main />
-    </div>
+    </>
   );
 }

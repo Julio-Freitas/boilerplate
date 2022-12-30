@@ -8,18 +8,19 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 
-    html, body {
+    html {
       font-size: 62.5%;
       margin: 0 auto;
     }
 
-    body {
-      font-family: --apple-system, 'Segoe UI', Ubuntu, Cantarell, "Open Sans"
-    }
+   body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
 
-    #__next main {
-      display: flex;
-      flex-direction: column;
+    html, body {
+      height: 100%;
+    }
+    #__next {
       height: 100%;
       width: 100%;
     }
