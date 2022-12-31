@@ -9,6 +9,7 @@ module.exports = {
     '!src/**/types.ts',
     '!src/**/*.enum.ts',
     '!src/**/types/*',
+    '!src/**/types/*.d.ts',
     '!src/**/stories.tsx',
     '!src/pages/_app.tsx',
     '!src/pages/_document.tsx'
